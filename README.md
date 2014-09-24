@@ -2,18 +2,20 @@ nrf51-TIMER-examples
 ==================
 
  This project contains simple TIMER code examples, both for timer mode and counter mode.
- Explanation on how to operate the example is given at the top of the main file in the example.
+ 
+ Explanation on how to operate the examples is given at the top of the main file in each example.
  
 Requirements
 ------------
 - nRF51 SDK version 6.1.0
 - nRF51822 Evaluation Kit version 2.1.0 or later
 
+To compile it, clone the repository in the \nrf51822\Board\pca10001\ folder.
+
 The project may need modifications to work with other versions or other boards.
+
 To port the example to the nRF51822 development board, simply replace the BOARD_PCA10001 constant define in KEIL -> Target Options to BOARD_NRF6310
 ![alt tag](Capture - Define the constant for the development kit in Keil Target Options.png)
-
-To compile it, clone the repository in the \nrf51822\Board\pca10001\ folder.
 
 About this project
 ------------------
