@@ -12,10 +12,10 @@ Requirements
 
 To compile it, clone the repository in the \nrf51822\Board\pca10001\ folder.
 
-The project may need modifications to work with other versions or other boards.
-
 To port the example to the nRF51822 development board, simply replace the BOARD_PCA10001 constant define in KEIL -> Target Options to BOARD_NRF6310
 ![alt tag](Capture - Define the constant for the development kit in Keil Target Options.png)
+
+The project may need modifications to work with other versions or other boards.
 
 About this project
 ------------------
